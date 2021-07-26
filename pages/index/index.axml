@@ -1,4 +1,10 @@
 
 <view>
   this is a blank page---by zjp autorhhhhhggggjjjjppppp
+  <button a:if="{{canIUseAuthButton}}" open-type="getAuthorize" 
+  onGetAuthorize="onGetAuthorize" onError="onAuthError" 
+  scope='userInfo'>
+      会员基础信息授权
+  </button>
+  <navigator open-type="navigate" url="../about/index" hover-class="navigator-hover">跳转到about</navigator>
 </view>
