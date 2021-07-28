@@ -1,0 +1,18 @@
+.swiper-item{
+  display: block;
+  height: 150px;
+  margin:10px;
+  background-color:#e0ffff;
+}
+.margin-t {
+  margin-top: 24px;
+}
+.swiper-item.bc_blue{
+  background-color:blue;
+}
+.swiper-item.bc_red{
+  background-color:red;
+}
+.swiper-item.bc_yellow{
+  background-color:yellow;
+}

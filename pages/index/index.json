@@ -1,1 +1,6 @@
-{}
+{
+  "usingComponents": {
+    "list": "mini-ali-ui-rpx/es/list/index",
+    "list-item": "mini-ali-ui-rpx/es/list/list-item"
+  }
+}

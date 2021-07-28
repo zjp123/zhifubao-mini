@@ -4,6 +4,12 @@ Page({
     canIUseAuthButton: my.canIUse('button.open-type.getAuthorize'),
     auth: {},
     userInfo: {},
+    background: ['blue', 'red', 'yellow'],
+    indicatorDots: true,
+    autoplay: true,
+    vertical: false,
+    interval: 1000,
+    circular: false,
   },
   onGetAuthorize(res) {
     my.getOpenUserInfo({
